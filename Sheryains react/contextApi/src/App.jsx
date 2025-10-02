@@ -1,6 +1,15 @@
+import { useContext } from "react"
+import { UserContext } from "./UseContext"
+
 const App = () => {
+  const {myName}=useContext(UserContext)
+    const {yourName}=useContext(UserContext)
   return (
-    <div>App</div>
+    
+    <div>
+      {myName}
+    {yourName}
+    </div>
   )
 }
 

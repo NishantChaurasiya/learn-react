@@ -1,13 +1,12 @@
 import { createContext } from "react"
 
 export const UserContext=createContext()
-
+ 
 export const UserContextProvider=({children})=>{
-
-
-    const myName="nishhu"
+   const myName="nishhu"
+     const yourName="nishant"
 return(
-  <UserContext.Provider value={{click,setClick}}>
+  <UserContext.Provider value={{myName,yourName}}>
     {children}
   </UserContext.Provider>
 )

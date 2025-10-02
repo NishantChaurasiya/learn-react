@@ -21,7 +21,7 @@ const Shop = () => {
     <h4>${cardProducts.price}</h4>
   <p>{cardProducts.title}</p>
 </div>
-  <button onClick={()=>removeFromCard(cardProducts.id)} className="bg-red-500 px-5 py-2 rounded-md text-white cursor-pointer">Romove</button>
+  <button onClick={()=>removeFromCard(cardProducts.id)} className="bg-red-500 px-5 py-2 rounded-md text-white cursor-pointer">Remove</button>
 </div>
 
 </div>
